@@ -15,5 +15,4 @@ st.write(' 5-Humidity:This column represents the average relative humidity (in p
 st.write(' 6-PH:This column represents the soil pH during the crop\'s growing period. pH is a measure of the acidity or alkalinity of the soil')
 st.write(' 7-rainfall:This column represents the amount of rainfall (in mm) received during the crop\'s growing period.')
 st.write(' 8-Label:The label column is used to identify the type of crop')
-df_source = pd.read_csv(r"C:\Data science course\Final project\final project including new data set\multipages\Sources\crop_recommend.csv", encoding= 'unicode_escape')
-st.write(df_source)
+
